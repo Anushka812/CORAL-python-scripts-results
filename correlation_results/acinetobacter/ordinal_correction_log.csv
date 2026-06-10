@@ -1,0 +1,2 @@
+Binary_Variable,Ordinal_Variable,Original_Correlation,Original_Values,Reversed_Mapping,New_Correlation
+P.C.Z.A.T,Minocycline,-0.5124889426948922,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.5124889426948922

@@ -1,0 +1,14 @@
+outcome,predictor,beta_coefficient,ci_lower,ci_upper,p_value,regression_type,sample_size,uni_p_threshold
+Mortality in Hospital,const,0.6188817320676642,,,,logistic,12,0.2
+Mortality in Hospital,Patient ID,0.66387965534985,,,,logistic,12,0.2
+Mortality in Hospital,Age,-0.7247500797696206,,,,logistic,12,0.2
+Mortality in Hospital,HTN,-0.11708996495883277,,,,logistic,12,0.2
+Mortality in Hospital,HAP.CRO,1.1243917683331306,,,,logistic,12,0.2
+Mortality in Hospital,ALP,-0.06851044730008964,,,,logistic,12,0.2
+Mortality in Hospital,Aztreonam,0.3000425909456259,,,,logistic,12,0.2
+Mortality in Hospital,Ciprofloxacin,1.840417672334462,,,,logistic,12,0.2
+Mortality in Hospital,Cefepime,1.780044428364276,,,,logistic,12,0.2
+Mortality in Hospital,Cefoperazone/Sulbactam,1.4360386968662304,,,,logistic,12,0.2
+Mortality in Hospital,Piperacillin/Tazobactam,1.8404176723344687,,,,logistic,12,0.2
+Mortality in Hospital,Carbapenemase,-0.18960619254611377,,,,logistic,12,0.2
+Mortality in Hospital,GW Stay in 28 Days,-3.05439872777988,,,,logistic,12,0.2

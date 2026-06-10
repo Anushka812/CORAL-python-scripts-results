@@ -1,0 +1,15 @@
+Binary_Variable,Ordinal_Variable,Original_Correlation,Original_Values,Reversed_Mapping,New_Correlation
+IAI.CRO,Ciprofloxacin,-0.574959574576069,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.574959574576069
+HAP.CRO,Ceftazidime,-0.5137830903923016,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.5137830903923016
+CV.Catheter.in.6.Months,Aztreonam,-0.6324555320336759,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.6324555320336759
+Urinary.Catheter.in.6.Months,Levofloxacin,-0.574959574576069,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.574959574576069
+Inotropes.,Levofloxacin,-0.6768912897813195,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.6768912897813195
+TLC,Ceftazidime,-0.5720775535473553,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.5720775535473553
+Bil,Cefoperazone.Sulbactam,-0.5137830903923016,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.5137830903923016
+SGOT,Aztreonam,-0.6768912897813195,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.6768912897813195
+Albumin,Ciprofloxacin,-0.8528028654224418,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.8528028654224418
+Total.Protein,Cefoperazone.Sulbactam,-0.7248824356090756,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.7248824356090756
+ALP,Ciprofloxacin,-0.8090398349558905,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.8090398349558905
+Carbapenemase,Ciprofloxacin,-0.5137830903923016,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.5137830903923016
+Mortality.in.Hospital,Aztreonam,-0.5871806747340589,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.5871806747340589
+Overall.mortality,Ceftazidime,-0.6768912897813195,"[np.int64(1), np.int64(2), np.int64(3)]","{np.int64(1): np.int64(3), np.int64(2): np.int64(2), np.int64(3): np.int64(1)}",0.6768912897813195

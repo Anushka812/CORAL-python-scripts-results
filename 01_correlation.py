@@ -84,98 +84,11 @@ print(f"  • Ordinal: {len(ordinal_vars)} variables")
 print(f"  • Continuous: {len(continuous_vars)} variables")
 
 # =====================================================================
-# STEP 5: DETECT AND CORRECT ORDINAL VARIABLES
+# STEP 5: CALCULATE CORRELATIONS
 # =====================================================================
 
 print("\n" + "-"*50)
-print("DETECTING AND CORRECTING ORDINAL VARIABLE DIRECTION")
-print("-"*50)
-
-def get_expected_direction(binary_var, ordinal_var, data):
-    ordinal_values = sorted(data[ordinal_var].dropna().unique())
-    if len(ordinal_values) == 3:
-        if min(ordinal_values) == 1 and max(ordinal_values) == 3:
-            return "positive"
-    return None
-
-def correct_ordinal_direction(data, binary_vars, ordinal_vars, threshold=0.5):
-    corrected_vars = {}
-    correction_log = []
-    
-    for binary_var in binary_vars:
-        if len(data[binary_var].dropna().unique()) < 2:
-            continue
-        
-        for ordinal_var in ordinal_vars:
-            temp_data = data[[binary_var, ordinal_var]].dropna()
-            if len(temp_data) < 10:
-                continue
-            
-            corr, pval = stats.spearmanr(temp_data[binary_var], temp_data[ordinal_var])
-            expected = get_expected_direction(binary_var, ordinal_var, data)
-            
-            if expected == "positive" and corr < -threshold:
-                ordinal_values = sorted(data[ordinal_var].dropna().unique())
-                reversed_mapping = {val: max(ordinal_values) - val + min(ordinal_values) 
-                                   for val in ordinal_values}
-                
-                data[ordinal_var] = data[ordinal_var].map(reversed_mapping)
-                
-                temp_data_new = data[[binary_var, ordinal_var]].dropna()
-                new_corr, new_pval = stats.spearmanr(temp_data_new[binary_var], temp_data_new[ordinal_var])
-                
-                correction_log.append({
-                    'Binary_Variable': binary_var,
-                    'Ordinal_Variable': ordinal_var,
-                    'Original_Correlation': corr,
-                    'Original_Values': ordinal_values,
-                    'Reversed_Mapping': reversed_mapping,
-                    'New_Correlation': new_corr
-                })
-                
-                corrected_vars[ordinal_var] = {
-                    'original_values': ordinal_values,
-                    'corrected_mapping': reversed_mapping,
-                    'detected_by': binary_var
-                }
-                
-                print(f"\n  🔄 CORRECTED: {ordinal_var}")
-                print(f"     Detected by: {binary_var}")
-                print(f"     Original correlation: {corr:.3f}")
-                print(f"     Original values: {ordinal_values}")
-                print(f"     New mapping: {reversed_mapping}")
-                print(f"     New correlation: {new_corr:.3f}")
-                
-                break
-    
-    return data, corrected_vars, correction_log
-
-# Apply correction
-data, corrected_vars, correction_log = correct_ordinal_direction(data, binary_vars, ordinal_vars)
-
-# =====================================================================
-# STEP 6: SAVE CORRECTED DATA TO OUTPUT DIRECTORY
-# =====================================================================
-
-if corrected_vars:
-    # Save corrected data to output directory, NOT to input file location
-    corrected_file = os.path.join(output_dir, f"corrected_{os.path.basename(csv_file)}")
-    data.to_csv(corrected_file, index=False)
-    print(f"\n✅ Saved corrected data to: {corrected_file}")
-    
-    # Save correction log to output directory
-    log_df = pd.DataFrame(correction_log)
-    log_df.to_csv(os.path.join(output_dir, "ordinal_correction_log.csv"), index=False)
-    print(f"✅ Saved correction log to: {output_dir}/ordinal_correction_log.csv")
-else:
-    print("\n✅ No ordinal variables needed correction")
-
-# =====================================================================
-# STEP 7: CALCULATE CORRELATIONS
-# =====================================================================
-
-print("\n" + "-"*50)
-print("CALCULATING CORRELATIONS WITH CORRECTED DATA")
+print("CALCULATING CORRELATIONS")
 print("-"*50)
 
 # Get all numeric columns
@@ -225,19 +138,17 @@ corr_df = corr_df.sort_values('Correlation', key=abs, ascending=False).reset_ind
 print(f"✅ Calculated {len(corr_df)} correlation pairs")
 
 # =====================================================================
-# STEP 8: SAVE ALL CORRELATION RESULTS TO OUTPUT DIRECTORY
+# STEP 6: SAVE ALL CORRELATION RESULTS TO OUTPUT DIRECTORY
 # =====================================================================
 
 # Save all correlations
 corr_df.to_csv(os.path.join(output_dir, "correlations_all.csv"), index=False)
 print(f"✅ Saved: {output_dir}/correlations_all.csv")
 
-# The code below will save only strong or moderately correlated files from the 
-# complete correlation data. Feel free to modify this accordingly.
-# Save strong/moderate only
-#important_corr = corr_df[corr_df['Strength'].isin(['STRONG', 'MODERATE'])]
-#if len(important_corr) > 0:
-    #important_corr.to_csv(os.path.join(output_dir, "correlations_main.csv"), index=False)
-    #print(f"✅ Saved: {output_dir}/correlations_main.csv ({len(important_corr)} pairs)")
+# (Optional) Uncomment below to save only strong/moderate correlations
+# important_corr = corr_df[corr_df['Strength'].isin(['STRONG', 'MODERATE'])]
+# if len(important_corr) > 0:
+#     important_corr.to_csv(os.path.join(output_dir, "correlations_main.csv"), index=False)
+#     print(f"✅ Saved: {output_dir}/correlations_main.csv ({len(important_corr)} pairs)")
 
-# print("✅ ANALYSIS COMPLETE")
+print("✅ ANALYSIS COMPLETE")

@@ -1,13 +1,5 @@
 bacteria,script,success,error
 pseudomonas,01_correlation.py,True,
-pseudomonas,02_univariate_regression.py,True,
-pseudomonas,03_multivariate_regression.py,True,
 ecoli,01_correlation.py,True,
-ecoli,02_univariate_regression.py,True,
-ecoli,03_multivariate_regression.py,True,
 acinetobacter,01_correlation.py,True,
-acinetobacter,02_univariate_regression.py,True,
-acinetobacter,03_multivariate_regression.py,True,
 klebsiella,01_correlation.py,True,
-klebsiella,02_univariate_regression.py,True,
-klebsiella,03_multivariate_regression.py,True,

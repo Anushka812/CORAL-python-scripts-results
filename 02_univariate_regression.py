@@ -136,7 +136,7 @@ for out in outcomes:
                 'ci_upper': ci_upper,
                 'p_value': pval,
                 'regression_type': reg_type,
-                'p_gt_0.2': pval > 0.2
+                'p_gt_0.2': pval < 0.2
             })
             
         except Exception as e:

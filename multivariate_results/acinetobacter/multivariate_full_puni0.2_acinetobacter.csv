@@ -1,15 +1,14 @@
 outcome,predictor,beta_coefficient,ci_lower,ci_upper,p_value,regression_type,sample_size,uni_p_threshold
-ICU Stay in 28 Days,const,10.114849876908453,-3.542161598786402,23.77186135260331,0.1281696160086975,linear,20,0.2
-ICU Stay in 28 Days,Surgery in last 3 Months,4.534840581287097,-0.8723069864709574,9.941988149045152,0.09028919230880356,linear,20,0.2
-ICU Stay in 28 Days,Immunosuppressive drugs in 1 week,1.202149292432905,-4.5529000010994,6.95719858596521,0.647794837865387,linear,20,0.2
-ICU Stay in 28 Days,Inotropes,0.895436275280385,-5.5191826543840214,7.310055204944792,0.7593684439992677,linear,20,0.2
-ICU Stay in 28 Days,Any Viral Infection,-2.2077129495384904,-6.8466437927549,2.4312178936779194,0.30967715481182073,linear,20,0.2
-ICU Stay in 28 Days,Lympho,-2.664039239285925,-7.414829559526265,2.086751080954415,0.23643917072426737,linear,20,0.2
-ICU Stay in 28 Days,Urea,3.6140131941521894,-0.7172166778669578,7.9452430661713365,0.09169257316693448,linear,20,0.2
-ICU Stay in 28 Days,Magnesium,1.5912132723071952,-4.703563762469065,7.885990307083455,0.5814324705589465,linear,20,0.2
-ICU Stay in 28 Days,Trimethoprim/Sulfamethoxazole,-1.9325206664179984,-6.5123694298902075,2.647328097054211,0.36474202252519894,linear,20,0.2
-ICU Stay in 28 Days,Total Hospital Stay,0.27614384106805545,-0.14058724671312722,0.6928749288492382,0.1681045981513392,linear,20,0.2
-ICU Stay in 28 Days,Relapse post 28 Day Discharge,-0.09425863373623344,-7.077195326998252,6.888678059525786,0.9763063689725261,linear,20,0.2
+ICU Stay in 28 Days,const,11.894822203930907,-1.5810224634592007,25.370666871321014,0.07756495423927252,linear,20,0.2
+ICU Stay in 28 Days,Surgery in last 3 Months,4.36413297054672,-1.1128134879063678,9.841079428999809,0.10621365174937132,linear,20,0.2
+ICU Stay in 28 Days,Immunosuppressive drugs in 1 week,1.5942798088520114,-4.201058218759681,7.389617836463704,0.5535904315995959,linear,20,0.2
+ICU Stay in 28 Days,Inotropes,0.9329685131775587,-5.574422144921213,7.440359171276331,0.7559590944296504,linear,20,0.2
+ICU Stay in 28 Days,Any Viral Infection,-2.6611199534742376,-7.295357465913675,1.9731175589651997,0.22962165755912856,linear,20,0.2
+ICU Stay in 28 Days,Urea,3.3680618637247925,-1.003459454929581,7.739583182379166,0.1167947449846783,linear,20,0.2
+ICU Stay in 28 Days,Magnesium,2.3884976336586625,-3.832631153107849,8.609626420425174,0.412325860422468,linear,20,0.2
+ICU Stay in 28 Days,Trimethoprim/Sulfamethoxazole,-2.654646107525286,-7.1135257421428,1.8042335270922276,0.21415401089768932,linear,20,0.2
+ICU Stay in 28 Days,Total Hospital Stay,0.21913779309763443,-0.19087079010975505,0.6291463763050239,0.2612021129162767,linear,20,0.2
+ICU Stay in 28 Days,Relapse post 28 Day Discharge,-1.7185296514176471,-8.164614506210352,4.727555203375057,0.5656916315990057,linear,20,0.2
 Mortality in ICU,const,-41.92910795204762,,,,logistic,20,0.2
 Mortality in ICU,Weight,-0.2500215775047344,,,,logistic,20,0.2
 Mortality in ICU,Any Fungal Infection,154.16945291281033,,,,logistic,20,0.2
@@ -17,59 +16,61 @@ Mortality in ICU,APACHEII,-27.210909079226845,,,,logistic,20,0.2
 Mortality in ICU,SOFA,57.07751756831889,,,,logistic,20,0.2
 Mortality in ICU,Bil,58.31518842351513,,,,logistic,20,0.2
 Mortality in ICU,Urea,109.7148589030626,,,,logistic,20,0.2
-Mortality in ICU,Z-A only.E,38.10684599125363,,,,logistic,20,0.2
-Mortality in ICU,P/C-Sulbactam.T,-102.17759233000498,,,,logistic,20,0.2
+Mortality in ICU,Empirically given CAAZ only,38.10684599125363,,,,logistic,20,0.2
+Mortality in ICU,P/C-Sulbactam in Treatment,-102.17759233000498,,,,logistic,20,0.2
 Mortality in Hospital,const,-57.1342642395035,-1142816868.6233313,1142816754.3548028,0.9999999218177489,logistic,20,0.2
 Mortality in Hospital,Patient ID,-0.31817101356639327,-510359106.86587477,510359106.2295327,0.9999999990250712,logistic,20,0.2
 Mortality in Hospital,Age,1.1133140383852331,-663681303.3832707,663681305.6098988,0.9999999973767103,logistic,20,0.2
 Mortality in Hospital,APACHEII,8.45711578237059,-294283662.14657646,294283679.060808,0.9999999550588414,logistic,20,0.2
 Mortality in Hospital,SOFA,-9.566343964070604,-7438621411.3380375,7438621392.205349,0.9999999979888629,logistic,20,0.2
-Mortality in Hospital,ANC,-107.20887270176027,-32621080277.156345,32621080062.738598,0.9999999948605038,logistic,20,0.2
+Mortality in Hospital,Absolute Neutrophil Count,-107.20887270176027,-32621080277.156345,32621080062.738598,0.9999999948605038,logistic,20,0.2
 Mortality in Hospital,Albumin,-92.20413428938082,-30650028693.341095,30650028508.932823,0.9999999952955629,logistic,20,0.2
 Mortality in Hospital,GW Stay in 28 Days,7.476041660689125,-422396386.8158997,422396401.7679831,0.999999972321684,logistic,20,0.2
-Mortality post 28 Day Discharge,const,68.94016701952685,,,,logistic,20,0.2
-Mortality post 28 Day Discharge,APACHEII,6.1281737392150095,,,,logistic,20,0.2
-Mortality post 28 Day Discharge,Neither Abx.E,88.37900211125894,,,,logistic,20,0.2
-Mortality post 28 Day Discharge,Neither Abx.T,88.37900211125893,,,,logistic,20,0.2
-Mortality post 28 Day Discharge,Amikacin,-51.89896722572399,,,,logistic,20,0.2
-Mortality post 28 Day Discharge,Trimethoprim/Sulfamethoxazole,-30.83540496861833,,,,logistic,20,0.2
-Mortality post 28 Day Discharge,Ampicillin Sulbactam,-71.47480311021124,,,,logistic,20,0.2
-Mortality post 28 Day Discharge,Relapse post 28 Day Discharge,76.60233205062391,,,,logistic,20,0.2
-Overall Mortality,const,-10.031195577391724,,,,logistic,20,0.2
-Overall Mortality,Age,0.5172140790290307,,,,logistic,20,0.2
-Overall Mortality,Male,-3.6363516675458114,,,,logistic,20,0.2
-Overall Mortality,Female,-6.394843909845911,,,,logistic,20,0.2
-Overall Mortality,Surgery in last 3 Months,-18.38150811888689,,,,logistic,20,0.2
-Overall Mortality,APACHEII,-6.75851923599767,,,,logistic,20,0.2
-Overall Mortality,SOFA,24.27770397463872,,,,logistic,20,0.2
-Overall Mortality,Lympho,-47.20880787713902,,,,logistic,20,0.2
-Overall Mortality,Platelet,21.210709207393357,,,,logistic,20,0.2
-Overall Mortality,SGPT,26.67251803074443,,,,logistic,20,0.2
-Overall Mortality,P/C only.T,-24.533140867339274,,,,logistic,20,0.2
-Overall Mortality,Clinical Improvement,-55.96833811925191,,,,logistic,20,0.2
-Overall Mortality,GW Stay in 28 Days,0.4218109303702011,,,,logistic,20,0.2
-Overall Mortality,Total Hospital Stay,-3.5191523718442554,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,const,20.8271911733528,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,CAP.CRO,36.13781583880385,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,Ventilation,-22.286799359801734,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,Overall organ support,-22.286799359801634,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,APACHEII,-0.31147476647676964,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,SOFA,-3.4018444957210083,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,Albumin,-0.14001465980741554,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,Amikacin,21.76425800262374,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,P/C-Sulbactam.T,-4.525151887263517,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,ICU Stay in 28 Days,-7.929917619014955,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,Total Hospital Stay,0.8507490193874663,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,Mortality post 28 Day Discharge,14.163255686594571,,,,logistic,20,0.2
-Relapse post 28 Day Discharge,Other Illness Leading to Hospitalization post 28 Days Discharge,38.70585358632131,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,const,-1.3098863058815664,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Height,2.7970041118107236,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,CAP.CRO,18.38735717076285,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Albumin,-12.515110275701733,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Amikacin,-18.196613537574617,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Trimethoprim/Sulfamethoxazole,-22.35171057213855,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Ampicillin Sulbactam,-19.9163097675865,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Meropenem.T,-14.81383729042154,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,P/C-Sulbactam.T,-9.695806969408043,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Total Hospital Stay,-1.1113633111259338,,,,logistic,20,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Relapse post 28 Day Discharge,16.866845183592766,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,const,48.34942809212778,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,APACHEII,6.284420712452844,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,Absolute Lymphocyte Count,-41.71715063692527,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,Empirically given other Abx,66.99056184489167,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,Targettedly Given Other Abx,66.99056184489184,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,Amikacin Resistance,-34.43583518781319,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,Trimethoprim/Sulfamethoxazole,-24.23608512931224,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,Ampicillin Sulbactam,-55.453005072221124,,,,logistic,20,0.2
+Mortality post 28 Day Discharge,Relapse post 28 Day Discharge,58.30163602467323,,,,logistic,20,0.2
+Overall Mortality,const,-48.55387375501122,,,,logistic,20,0.2
+Overall Mortality,Age,0.5194402481213883,,,,logistic,20,0.2
+Overall Mortality,Male Gender,-23.74383650815475,,,,logistic,20,0.2
+Overall Mortality,Female Gender,-24.81003724685987,,,,logistic,20,0.2
+Overall Mortality,Surgery in last 3 Months,-66.89438838469262,,,,logistic,20,0.2
+Overall Mortality,APACHEII,-35.73758633622116,,,,logistic,20,0.2
+Overall Mortality,SOFA,110.44462894346599,,,,logistic,20,0.2
+Overall Mortality,Platelet,81.83029064719103,,,,logistic,20,0.2
+Overall Mortality,SGPT,96.02740676554811,,,,logistic,20,0.2
+Overall Mortality,Targettedly Given P/C only,-99.27974349597923,,,,logistic,20,0.2
+Overall Mortality,Clinical Improvement,-265.003691324647,,,,logistic,20,0.2
+Overall Mortality,GW Stay in 28 Days,0.28775678928490056,,,,logistic,20,0.2
+Overall Mortality,Total Hospital Stay,-9.256267279278607,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,const,22.055105177079852,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,CRO based CAP,38.335256603122026,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Ventilation,-23.58462663707453,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Overall organ support,-23.584626637074578,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,APACHEII,-0.3199145860344083,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,SOFA,-3.6135534435625463,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Absolute Lymphocyte Count,0.6588110007911379,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Albumin,-0.1672853289968881,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Amikacin Resistance,22.92221559388654,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,P/C-Sulbactam in Treatment,-4.860235549808255,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,ICU Stay in 28 Days,-8.437683864242524,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Total Hospital Stay,0.9051301411198092,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Mortality post 28 Day Discharge,15.056863850125827,,,,logistic,20,0.2
+Relapse post 28 Day Discharge,Other Illness Leading to Hospitalization post 28 Days Discharge,41.055320131470076,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,const,-1.5781831971500164,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Height,3.4366737379661796,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,CRO based CAP,21.873727448851994,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Absolute Lymphocyte Count,-9.707518751142281,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Albumin,-15.320106795080761,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Amikacin Resistance,-20.891332555624377,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Trimethoprim/Sulfamethoxazole,-26.711998610003242,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Ampicillin Sulbactam,-23.82989615343446,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Meropenem in Treatment,-18.126135579508183,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,P/C-Sulbactam in Treatment,-11.564832099669529,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Total Hospital Stay,-1.1820873947338884,,,,logistic,20,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Relapse post 28 Day Discharge,20.09279704119257,,,,logistic,20,0.2

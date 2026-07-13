@@ -1,93 +1,93 @@
 outcome,predictor,beta_coefficient,ci_lower,ci_upper,p_value,regression_type,sample_size,uni_p_threshold
-ICU Stay in 28 Days,const,6.4866970241271185,-7.087142559985007,20.060536608239243,0.33891711843630346,linear,61,0.2
-ICU Stay in 28 Days,Weight,0.07865304620153162,-0.06514917616626557,0.2224552685693288,0.2746682776850159,linear,61,0.2
-ICU Stay in 28 Days,HTN,1.496175107729736,-1.433745772517166,4.426095987976638,0.3072706670615512,linear,61,0.2
-ICU Stay in 28 Days,IAI.CRO,0.23501475359418017,-5.121090879841511,5.591120387029872,0.9295842463617103,linear,61,0.2
-ICU Stay in 28 Days,HAP.CRO,0.8011070809284557,-2.422195057643181,4.024409219500092,0.6172940201497451,linear,61,0.2
-ICU Stay in 28 Days,Surgery in last 3 Months,2.0876151944249544,-0.7503733427477717,4.925603731597681,0.14444797719564562,linear,61,0.2
-ICU Stay in 28 Days,Inotropes,3.879986266149249,-1.4766982736269894,9.236670805925488,0.15051743769446946,linear,61,0.2
-ICU Stay in 28 Days,Ventilation,3.6926387849907236,-0.7733115574752114,8.158589127456658,0.10222299187453202,linear,61,0.2
-ICU Stay in 28 Days,Overall organ support,-2.3728487892123353,-8.474237397415852,3.7285398189911807,0.4354322765459821,linear,61,0.2
+ICU Stay in 28 Days,const,6.4866970241271185,-7.087142559985007,20.060536608239243,0.33891711843630357,linear,61,0.2
+ICU Stay in 28 Days,Weight,0.07865304620153162,-0.06514917616626557,0.2224552685693288,0.2746682776850161,linear,61,0.2
+ICU Stay in 28 Days,HTN,1.496175107729736,-1.433745772517166,4.426095987976638,0.3072706670615515,linear,61,0.2
+ICU Stay in 28 Days,CRO based IAI,0.23501475359418017,-5.121090879841511,5.591120387029872,0.9295842463617104,linear,61,0.2
+ICU Stay in 28 Days,CRO based HAP,0.8011070809284557,-2.422195057643181,4.024409219500092,0.617294020149745,linear,61,0.2
+ICU Stay in 28 Days,Surgery in last 3 Months,2.0876151944249544,-0.7503733427477717,4.925603731597681,0.1444479771956456,linear,61,0.2
+ICU Stay in 28 Days,Inotropes,3.879986266149249,-1.4766982736269894,9.236670805925488,0.15051743769446943,linear,61,0.2
+ICU Stay in 28 Days,Ventilation,3.6926387849907236,-0.7733115574752114,8.158589127456658,0.10222299187453206,linear,61,0.2
+ICU Stay in 28 Days,Overall organ support,-2.3728487892123353,-8.474237397415852,3.7285398189911807,0.43543227654598204,linear,61,0.2
 ICU Stay in 28 Days,Any Viral Infection,-0.03418653670410492,-3.608639242458035,3.5402661690498256,0.984631546841392,linear,61,0.2
 ICU Stay in 28 Days,Any Fungal Infection,0.5731217667069135,-2.749188652796674,3.895432186210501,0.7284820615015726,linear,61,0.2
-ICU Stay in 28 Days,APACHEII,-0.1555518109312844,-0.5693897071122853,0.2582860852497166,0.4508396962950711,linear,61,0.2
-ICU Stay in 28 Days,SOFA,0.3485681091135526,-0.3527994052361272,1.0499356234632324,0.3202153803502029,linear,61,0.2
-ICU Stay in 28 Days,ANC,0.7738431377109279,-2.6310832636763606,4.178769539098217,0.647622742331576,linear,61,0.2
-ICU Stay in 28 Days,Albumin,-0.9188575106059126,-5.697840632095263,3.8601256108834376,0.6988765601480751,linear,61,0.2
-ICU Stay in 28 Days,Urea,0.5281800771440237,-2.703941396564331,3.760301550852378,0.7422467729159087,linear,61,0.2
-ICU Stay in 28 Days,P/C+Z-A.E,-2.132567514250574,-8.634374508823168,4.369239480322021,0.5101576608833978,linear,61,0.2
-ICU Stay in 28 Days,Aztreonam,-4.0071598425025385,-7.92480566759329,-0.08951401741178655,0.04524809863137275,linear,61,0.2
-ICU Stay in 28 Days,Trimethoprim/Sulfamethoxazole,0.7694210246207852,-0.8312541540994579,2.370096203341028,0.3361278367631169,linear,61,0.2
-ICU Stay in 28 Days,Ceftazidime/Avibactam.T,4.546303817831704,-2.498631871698503,11.59123950736191,0.1988996344173616,linear,61,0.2
-ICU Stay in 28 Days,Ceftazidime-Avibactam/Aztreonam.T,-2.7350084869343765,-9.2893175872058,3.8193006133370457,0.4029808774259228,linear,61,0.2
-ICU Stay in 28 Days,Ceftazidime-Avibactam/Aztreonam Synergy.T,1.654552042684608,-1.4887749666244283,4.797879051993645,0.2928405689776093,linear,61,0.2
-ICU Stay in 28 Days,Polymyxin/Colistin Inclusion.T,0.3613951195548631,-3.3773081182917357,4.100098357401462,0.8456796492908937,linear,61,0.2
-ICU Stay in 28 Days,Relapse post 28 Day Discharge,10.972908550641685,-2.0848474762196574,24.03066457750303,0.09694643997753286,linear,61,0.2
+ICU Stay in 28 Days,APACHEII,-0.1555518109312844,-0.5693897071122853,0.2582860852497166,0.45083969629507104,linear,61,0.2
+ICU Stay in 28 Days,SOFA,0.3485681091135526,-0.3527994052361272,1.0499356234632324,0.3202153803502033,linear,61,0.2
+ICU Stay in 28 Days,Absolute Neutrophil Count,0.7738431377109279,-2.6310832636763606,4.178769539098217,0.6476227423315759,linear,61,0.2
+ICU Stay in 28 Days,Albumin,-0.9188575106059126,-5.697840632095263,3.8601256108834376,0.6988765601480749,linear,61,0.2
+ICU Stay in 28 Days,Urea,0.5281800771440237,-2.703941396564331,3.760301550852378,0.7422467729159088,linear,61,0.2
+ICU Stay in 28 Days,Empirically given P/C and CAAZ,-2.132567514250574,-8.634374508823168,4.369239480322021,0.5101576608833978,linear,61,0.2
+ICU Stay in 28 Days,Aztreonam Resistance,-4.0071598425025385,-7.92480566759329,-0.08951401741178655,0.04524809863137274,linear,61,0.2
+ICU Stay in 28 Days,Trimethoprim/Sulfamethoxazole,0.7694210246207852,-0.8312541540994579,2.370096203341028,0.33612783676311675,linear,61,0.2
+ICU Stay in 28 Days,CA inclusion in Treatment,4.546303817831704,-2.498631871698503,11.59123950736191,0.19889963441736164,linear,61,0.2
+ICU Stay in 28 Days,CAAZ inclusion in Treatment,-2.7350084869343765,-9.2893175872058,3.8193006133370457,0.4029808774259226,linear,61,0.2
+ICU Stay in 28 Days,CAAZ Synergy,1.654552042684608,-1.4887749666244283,4.797879051993645,0.2928405689776095,linear,61,0.2
+ICU Stay in 28 Days,Polymyxin/Colistin Inclusion.T,0.3613951195548631,-3.3773081182917357,4.100098357401462,0.8456796492908938,linear,61,0.2
+ICU Stay in 28 Days,Relapse post 28 Day Discharge,10.972908550641685,-2.0848474762196574,24.03066457750303,0.09694643997753298,linear,61,0.2
 ICU Stay in 28 Days,Other Illness Leading to Hospitalization post 28 Days Discharge,-1.6225416766417347,-13.14715296068808,9.902069607404611,0.7768716372371147,linear,61,0.2
-GW Stay in 28 Days,const,25.344244597722245,9.645420312270847,41.043068883173646,0.002554837854328071,linear,62,0.2
-GW Stay in 28 Days,Patient ID,-0.02642409034157722,-0.07611721870479417,0.023269038021639734,0.28575414657313875,linear,62,0.2
-GW Stay in 28 Days,Age,-0.01939310182320235,-0.1256882099314528,0.08690200628504809,0.7117552450518502,linear,62,0.2
-GW Stay in 28 Days,Weight,-0.14232966489908933,-0.2896929106627597,0.005033580864581055,0.057812187476192115,linear,62,0.2
-GW Stay in 28 Days,NDM,2.1425468974839057,-0.6453951484138716,4.9304889433816825,0.1268522554034201,linear,62,0.2
+GW Stay in 28 Days,const,25.344244597722245,9.645420312270847,41.043068883173646,0.0025548378543280748,linear,62,0.2
+GW Stay in 28 Days,Patient ID,-0.02642409034157722,-0.07611721870479417,0.023269038021639734,0.2857541465731387,linear,62,0.2
+GW Stay in 28 Days,Age,-0.01939310182320235,-0.1256882099314528,0.08690200628504809,0.7117552450518501,linear,62,0.2
+GW Stay in 28 Days,Weight,-0.14232966489908933,-0.2896929106627597,0.005033580864581055,0.05781218747619208,linear,62,0.2
+GW Stay in 28 Days,NDM,2.1425468974839057,-0.6453951484138716,4.9304889433816825,0.12685225540342016,linear,62,0.2
 GW Stay in 28 Days,HTN,-1.968006650776188,-5.493931545631181,1.5579182440788055,0.26297925177417336,linear,62,0.2
-GW Stay in 28 Days,DM,-0.514339935826931,-3.5065210243703717,2.4778411527165094,0.7277068829553233,linear,62,0.2
-GW Stay in 28 Days,ABSSSI.CRO,7.506891014926093,-4.711065998068627,19.724848027920814,0.21891980147474194,linear,62,0.2
-GW Stay in 28 Days,CV Catheter Now,-11.011441661383298,-20.629483393532215,-1.3933999292343806,0.02628502515995083,linear,62,0.2
-GW Stay in 28 Days,Endoscopy in 1 week,-4.481716252294472,-10.707158218036806,1.7437257134478612,0.15169242641788225,linear,62,0.2
-GW Stay in 28 Days,Dialysis in 1 week,-0.5024186563178432,-6.145080569041805,5.1402432564061185,0.8567666814669626,linear,62,0.2
-GW Stay in 28 Days,Immunosuppressive drugs in 1 week,1.993315984049076,-1.2673000034819344,5.253931971580086,0.22118063292893467,linear,62,0.2
+GW Stay in 28 Days,DM,-0.514339935826931,-3.5065210243703717,2.4778411527165094,0.7277068829553232,linear,62,0.2
+GW Stay in 28 Days,ABSSSI.CRO,7.506891014926093,-4.711065998068627,19.724848027920814,0.2189198014747421,linear,62,0.2
+GW Stay in 28 Days,CV Catheter Now,-11.011441661383298,-20.629483393532215,-1.3933999292343806,0.02628502515995082,linear,62,0.2
+GW Stay in 28 Days,Endoscopy in 1 week,-4.481716252294472,-10.707158218036806,1.7437257134478612,0.1516924264178822,linear,62,0.2
+GW Stay in 28 Days,Dialysis in 1 week,-0.5024186563178432,-6.145080569041805,5.1402432564061185,0.8567666814669624,linear,62,0.2
+GW Stay in 28 Days,Immunosuppressive drugs in 1 week,1.993315984049076,-1.2673000034819344,5.253931971580086,0.2211806329289347,linear,62,0.2
 GW Stay in 28 Days,Ventilation,-0.10312192870841072,-3.4472722942038057,3.241028436786984,0.950145260018331,linear,62,0.2
-GW Stay in 28 Days,APACHEII,-0.08466613880160892,-0.4292325439335227,0.25990026633030483,0.6190760977101418,linear,62,0.2
+GW Stay in 28 Days,APACHEII,-0.08466613880160892,-0.4292325439335227,0.25990026633030483,0.6190760977101417,linear,62,0.2
 GW Stay in 28 Days,SOFA,0.16909718255355427,-0.398312898588092,0.7365072636952006,0.5469321039859985,linear,62,0.2
 GW Stay in 28 Days,Platelet,3.100416212624997,0.33900329049738964,5.861829134752604,0.02907445929899013,linear,62,0.2
 GW Stay in 28 Days,SGOT,-1.5737988717016513,-4.365748611163007,1.2181508677597046,0.25837464975478036,linear,62,0.2
-GW Stay in 28 Days,Total Protein,-0.2562521769564541,-3.8115977172760065,3.299093363363098,0.8838282798619076,linear,62,0.2
-GW Stay in 28 Days,ALP,-0.495213192857739,-3.7624172688760193,2.771990883160541,0.7587797495305638,linear,62,0.2
-GW Stay in 28 Days,Sodium,-1.4300845430735958,-4.364355689820492,1.5041866036733005,0.32711162473815897,linear,62,0.2
-GW Stay in 28 Days,Potassium,3.235242789238934,-0.011029673353843528,6.481515251831712,0.05073307709523829,linear,62,0.2
-GW Stay in 28 Days,Procalcitonin,2.7848266371008736,-0.5575001467339353,6.127153420935683,0.09905905213292128,linear,62,0.2
-GW Stay in 28 Days,P/C+Z-A.E,-1.222151852476622,-5.825037817055061,3.380734112101817,0.5912476699567106,linear,62,0.2
-GW Stay in 28 Days,P/C only.E,1.9547338237075869,-1.6583940700766828,5.567861717491857,0.27761020264548825,linear,62,0.2
-GW Stay in 28 Days,Z-A only.E,4.678868207652624,-0.5334352300792427,9.891171645384489,0.07664292276257893,linear,62,0.2
-GW Stay in 28 Days,P/C+Z-A.T,-0.6937300376368237,-4.893199789380622,3.5057397141069746,0.7379015103355115,linear,62,0.2
-GW Stay in 28 Days,Neither Abx.T,2.3982345595283556,-2.7656966188704812,7.5621657379271925,0.3500396910321037,linear,62,0.2
-GW Stay in 28 Days,Chloramphenicol,-0.44615448432060795,-1.6926921214987405,0.8003831528575245,0.47003229619085896,linear,62,0.2
-GW Stay in 28 Days,Doxycycline,-0.30614011417258485,-2.6247346512474623,2.0124544229022927,0.7890374530803582,linear,62,0.2
-GW Stay in 28 Days,Ceftazidime/Avibactam.T,-0.42452151656063686,-4.622905715889001,3.7738626827677266,0.8376078889401308,linear,62,0.2
-GW Stay in 28 Days,Clinical Improvement,1.6954515722974361,-1.1678307631963298,4.558733907791202,0.23565209035610082,linear,62,0.2
-GW Stay in 28 Days,Mortality in ICU,-2.1976052193351805,-6.426818449411903,2.031608010741542,0.29666430646304753,linear,62,0.2
+GW Stay in 28 Days,Total Protein,-0.2562521769564541,-3.8115977172760065,3.299093363363098,0.8838282798619075,linear,62,0.2
+GW Stay in 28 Days,ALP,-0.495213192857739,-3.7624172688760193,2.771990883160541,0.7587797495305637,linear,62,0.2
+GW Stay in 28 Days,Sodium,-1.4300845430735958,-4.364355689820492,1.5041866036733005,0.3271116247381589,linear,62,0.2
+GW Stay in 28 Days,Potassium,3.235242789238934,-0.011029673353843528,6.481515251831712,0.05073307709523822,linear,62,0.2
+GW Stay in 28 Days,Procalcitonin,2.7848266371008736,-0.5575001467339353,6.127153420935683,0.09905905213292127,linear,62,0.2
+GW Stay in 28 Days,Empirically given P/C and CAAZ,-1.222151852476622,-5.825037817055061,3.380734112101817,0.5912476699567105,linear,62,0.2
+GW Stay in 28 Days,Empirically given P/C only,1.9547338237075869,-1.6583940700766828,5.567861717491857,0.27761020264548836,linear,62,0.2
+GW Stay in 28 Days,Empirically given CAAZ only,4.678868207652624,-0.5334352300792427,9.891171645384489,0.07664292276257892,linear,62,0.2
+GW Stay in 28 Days,Targettedly Given P/C and CAAZ,-0.6937300376368237,-4.893199789380622,3.5057397141069746,0.7379015103355114,linear,62,0.2
+GW Stay in 28 Days,Targettedly Given Other Abx,2.3982345595283556,-2.7656966188704812,7.5621657379271925,0.35003969103210364,linear,62,0.2
+GW Stay in 28 Days,Chloramphenicol Resistance,-0.44615448432060795,-1.6926921214987405,0.8003831528575245,0.47003229619085896,linear,62,0.2
+GW Stay in 28 Days,Doxycycline Resistance,-0.30614011417258485,-2.6247346512474623,2.0124544229022927,0.7890374530803581,linear,62,0.2
+GW Stay in 28 Days,CA inclusion in Treatment,-0.42452151656063686,-4.622905715889001,3.7738626827677266,0.8376078889401308,linear,62,0.2
+GW Stay in 28 Days,Clinical Improvement,1.6954515722974361,-1.1678307631963298,4.558733907791202,0.23565209035610085,linear,62,0.2
+GW Stay in 28 Days,Mortality in ICU,-2.1976052193351805,-6.426818449411903,2.031608010741542,0.29666430646304776,linear,62,0.2
 GW Stay in 28 Days,Overall Mortality,-0.42516836953268633,-4.953942608005359,4.103605868939986,0.8490730798401945,linear,62,0.2
-Total Hospital Stay in 28 Days,const,27.475134880590943,6.34105201818242,48.60921774299946,0.01232326870444464,linear,61,0.2
-Total Hospital Stay in 28 Days,Patient ID,-0.015422707689313914,-0.06804889459421049,0.03720347921558266,0.5557065119340694,linear,61,0.2
-Total Hospital Stay in 28 Days,Age,-0.05329571580251174,-0.17543712519695223,0.06884569359192874,0.3817571566914553,linear,61,0.2
-Total Hospital Stay in 28 Days,Height,-0.04556349739112981,-0.15930855891790593,0.0681815641356463,0.4215944203721477,linear,61,0.2
-Total Hospital Stay in 28 Days,NDM,0.17063148370366488,-4.09291839102712,4.43418135843445,0.9357084162517018,linear,61,0.2
-Total Hospital Stay in 28 Days,DM,-1.8464135808841609,-5.476973729724463,1.784146567956141,0.30893716051427234,linear,61,0.2
-Total Hospital Stay in 28 Days,ABSSSI.CRO,15.391302783370904,2.545186156480815,28.23741941026099,0.020255365563085312,linear,61,0.2
-Total Hospital Stay in 28 Days,CAP.CRO,-1.009908542160303,-7.932965917114554,5.913148832793949,0.7688700723666905,linear,61,0.2
-Total Hospital Stay in 28 Days,CV Catheter Now,-1.4012969675290956,-12.790394341588197,9.987800406530006,0.8042166987062851,linear,61,0.2
-Total Hospital Stay in 28 Days,Dialysis in 1 week,-3.863226295815629,-10.108789226406675,2.382336634775416,0.21753096973623154,linear,61,0.2
-Total Hospital Stay in 28 Days,Any Fungal Infection,3.713496973107792,0.5068086210144682,6.920185325201116,0.024486444504572834,linear,61,0.2
-Total Hospital Stay in 28 Days,Hb,2.0184083983192402,-5.354084847754079,9.390901644392558,0.5818875261445648,linear,61,0.2
-Total Hospital Stay in 28 Days,Platelet,3.9912310058899245,0.4046954378401586,7.577766573939691,0.030204934679725577,linear,61,0.2
-Total Hospital Stay in 28 Days,Bil,-2.7637111008259447,-7.0072783518706085,1.479856150218719,0.19469422803279152,linear,61,0.2
-Total Hospital Stay in 28 Days,SGOT,-1.1743823742461117,-4.9470879985530685,2.5983232500608455,0.5315326209183846,linear,61,0.2
-Total Hospital Stay in 28 Days,ALP,1.212221110691074,-3.019513327681444,5.443955549063592,0.5646008303979626,linear,61,0.2
-Total Hospital Stay in 28 Days,Potassium,4.134389648421575,0.13024100365078617,8.138538293192363,0.04336805454528549,linear,61,0.2
-Total Hospital Stay in 28 Days,P/C+Z-A.T,1.7838186958060458,-2.9686922898514423,6.536329681463534,0.45117320902801206,linear,61,0.2
-Total Hospital Stay in 28 Days,Z-A only.T,3.1985775427339633,-0.5232190469194551,6.920374132387382,0.08981178722748866,linear,61,0.2
-Total Hospital Stay in 28 Days,Chloramphenicol,-0.9454529781352041,-2.3966736352180993,0.5057676789476913,0.19454887010474908,linear,61,0.2
-Total Hospital Stay in 28 Days,Ceftazidime,-3.2163480637816044,-6.8623144620715095,0.42961833450830067,0.08196286453046697,linear,61,0.2
-Total Hospital Stay in 28 Days,Ceftazidime-Avibactam/Aztreonam Synergy.T,0.5545157086577717,-3.0546731242323126,4.163704541547856,0.7569627140065291,linear,61,0.2
-Total Hospital Stay in 28 Days,Clinical Improvement,0.40872579723992236,-2.9898327123385617,3.807284306818407,0.8085403678755139,linear,61,0.2
-Total Hospital Stay in 28 Days,Mortality in ICU,-2.1461841593893953,-6.96762276502052,2.675254446241729,0.3723488577017962,linear,61,0.2
-Total Hospital Stay in 28 Days,Overall Mortality,-1.251809097550102,-6.179202761057678,3.6755845659574744,0.6092712821092511,linear,61,0.2
-Total Hospital Stay in 28 Days,Relapse post 28 Day Discharge,4.530934168918122,-2.90375690480207,11.965625242638314,0.22424534454794728,linear,61,0.2
+Total Hospital Stay in 28 Days,const,27.475134880590943,6.341052018182424,48.60921774299946,0.01232326870444462,linear,61,0.2
+Total Hospital Stay in 28 Days,Patient ID,-0.015422707689313914,-0.06804889459421047,0.03720347921558265,0.5557065119340692,linear,61,0.2
+Total Hospital Stay in 28 Days,Age,-0.05329571580251174,-0.1754371251969522,0.06884569359192871,0.38175715669145516,linear,61,0.2
+Total Hospital Stay in 28 Days,Height,-0.04556349739112981,-0.1593085589179059,0.0681815641356463,0.42159442037214756,linear,61,0.2
+Total Hospital Stay in 28 Days,NDM,0.17063148370366488,-4.092918391027119,4.434181358434449,0.9357084162517019,linear,61,0.2
+Total Hospital Stay in 28 Days,DM,-1.8464135808841609,-5.476973729724461,1.7841465679561401,0.3089371605142724,linear,61,0.2
+Total Hospital Stay in 28 Days,ABSSSI.CRO,15.391302783370904,2.5451861564808187,28.23741941026099,0.020255365563085295,linear,61,0.2
+Total Hospital Stay in 28 Days,CRO based CAP,-1.009908542160303,-7.932965917114553,5.913148832793947,0.7688700723666906,linear,61,0.2
+Total Hospital Stay in 28 Days,CV Catheter Now,-1.4012969675290956,-12.790394341588193,9.987800406530003,0.804216698706285,linear,61,0.2
+Total Hospital Stay in 28 Days,Dialysis in 1 week,-3.863226295815629,-10.108789226406673,2.382336634775415,0.21753096973623165,linear,61,0.2
+Total Hospital Stay in 28 Days,Any Fungal Infection,3.713496973107792,0.5068086210144691,6.920185325201114,0.024486444504572814,linear,61,0.2
+Total Hospital Stay in 28 Days,Haemoglobin,2.0184083983192402,-5.354084847754077,9.390901644392557,0.5818875261445646,linear,61,0.2
+Total Hospital Stay in 28 Days,Platelet,3.9912310058899245,0.4046954378401595,7.577766573939689,0.03020493467972557,linear,61,0.2
+Total Hospital Stay in 28 Days,Bil,-2.7637111008259447,-7.007278351870608,1.4798561502187182,0.19469422803279157,linear,61,0.2
+Total Hospital Stay in 28 Days,SGOT,-1.1743823742461117,-4.947087998553068,2.5983232500608446,0.5315326209183846,linear,61,0.2
+Total Hospital Stay in 28 Days,ALP,1.212221110691074,-3.019513327681443,5.443955549063592,0.5646008303979624,linear,61,0.2
+Total Hospital Stay in 28 Days,Potassium,4.134389648421575,0.13024100365078706,8.138538293192362,0.043368054545285466,linear,61,0.2
+Total Hospital Stay in 28 Days,Targettedly Given P/C and CAAZ,1.7838186958060458,-2.9686922898514414,6.536329681463533,0.4511732090280117,linear,61,0.2
+Total Hospital Stay in 28 Days,Targettedly Given CAAZ only,3.1985775427339633,-0.5232190469194542,6.920374132387381,0.08981178722748864,linear,61,0.2
+Total Hospital Stay in 28 Days,Chloramphenicol Resistance,-0.9454529781352041,-2.3966736352180993,0.5057676789476908,0.19454887010474914,linear,61,0.2
+Total Hospital Stay in 28 Days,Ceftazidime Resistance,-3.2163480637816044,-6.8623144620715095,0.4296183345083002,0.08196286453046696,linear,61,0.2
+Total Hospital Stay in 28 Days,CAAZ Synergy,0.5545157086577717,-3.0546731242323126,4.1637045415478555,0.7569627140065291,linear,61,0.2
+Total Hospital Stay in 28 Days,Clinical Improvement,0.40872579723992236,-2.989832712338561,3.807284306818406,0.8085403678755139,linear,61,0.2
+Total Hospital Stay in 28 Days,Mortality in ICU,-2.1461841593893953,-6.9676227650205185,2.6752544462417283,0.37234885770179593,linear,61,0.2
+Total Hospital Stay in 28 Days,Overall Mortality,-1.251809097550102,-6.179202761057677,3.6755845659574735,0.6092712821092511,linear,61,0.2
+Total Hospital Stay in 28 Days,Relapse post 28 Day Discharge,4.530934168918122,-2.9037569048020684,11.965625242638314,0.2242453445479473,linear,61,0.2
 Mortality in ICU,const,-15.480732833863579,,,,logistic,61,0.2
 Mortality in ICU,Patient ID,-0.6285921764304399,,,,logistic,61,0.2
 Mortality in ICU,Height,0.26122974591756365,,,,logistic,61,0.2
 Mortality in ICU,NDM,-41.46363182975512,,,,logistic,61,0.2
-Mortality in ICU,Z-A invitro,67.04618229712898,,,,logistic,61,0.2
+Mortality in ICU,CAAZ invitro,67.04618229712898,,,,logistic,61,0.2
 Mortality in ICU,COPD,74.38130206307363,,,,logistic,61,0.2
 Mortality in ICU,Dialysis in 1 week,31.557599547545937,,,,logistic,61,0.2
 Mortality in ICU,Immunosuppressive drugs in 1 week,32.13696479961338,,,,logistic,61,0.2
@@ -101,29 +101,29 @@ Mortality in ICU,APACHEII,8.557495142878684,,,,logistic,61,0.2
 Mortality in ICU,SOFA,-1.6159459840132202,,,,logistic,61,0.2
 Mortality in ICU,SGOT,-6.680274731943029,,,,logistic,61,0.2
 Mortality in ICU,Calcium,27.76884001899666,,,,logistic,61,0.2
-Mortality in ICU,P/C only.E,-23.921273792732066,,,,logistic,61,0.2
-Mortality in ICU,P/C+Z-A.T,23.269528719365887,,,,logistic,61,0.2
-Mortality in ICU,Minocycline,43.22271784625747,,,,logistic,61,0.2
+Mortality in ICU,Empirically given P/C only,-23.921273792732066,,,,logistic,61,0.2
+Mortality in ICU,Targettedly Given P/C and CAAZ,23.269528719365887,,,,logistic,61,0.2
+Mortality in ICU,Minocycline Resistance,43.22271784625747,,,,logistic,61,0.2
 Mortality in ICU,Trimethoprim/Sulfamethoxazole,66.68364330571632,,,,logistic,61,0.2
-Mortality in ICU,Cefotaxime,-158.65092317373566,,,,logistic,61,0.2
+Mortality in ICU,Cefotaxime Resistance,-158.65092317373566,,,,logistic,61,0.2
 Mortality in ICU,Clinical Improvement,-16.67844894703448,,,,logistic,61,0.2
 Mortality in ICU,GW Stay in 28 Days,-39.8159822487637,,,,logistic,61,0.2
 Mortality in ICU,Total Hospital Stay in 28 Days,-0.6586124153610401,,,,logistic,61,0.2
 Mortality in Hospital,const,-121.45294165811474,,,,logistic,62,0.2
-Mortality in Hospital,UTI.CRO,-154.35180652550102,,,,logistic,62,0.2
-Mortality in Hospital,HAP.CRO,-163.0225380333576,,,,logistic,62,0.2
+Mortality in Hospital,CRO based UTI,-154.35180652550102,,,,logistic,62,0.2
+Mortality in Hospital,CRO based HAP,-163.0225380333576,,,,logistic,62,0.2
 Mortality in Hospital,Past CREPA infection,213.59702009422017,,,,logistic,62,0.2
-Mortality in Hospital,TLC,-85.76417444024186,,,,logistic,62,0.2
+Mortality in Hospital,Total Leukocyte Count,-85.76417444024186,,,,logistic,62,0.2
 Mortality in Hospital,Bil,-54.461043313370595,,,,logistic,62,0.2
 Mortality in Hospital,SGPT,-122.80448432142022,,,,logistic,62,0.2
 Mortality in Hospital,ALP,-122.50017729886764,,,,logistic,62,0.2
 Mortality in Hospital,Creatinine,92.45266650997037,,,,logistic,62,0.2
 Mortality in Hospital,Sodium,172.9026837476853,,,,logistic,62,0.2
 Mortality in Hospital,Urea,286.711099211381,,,,logistic,62,0.2
-Mortality in Hospital,Z-A only.E,386.3134493457701,,,,logistic,62,0.2
-Mortality in Hospital,Chloramphenicol,-36.936391040814385,,,,logistic,62,0.2
-Mortality in Hospital,Colistin,20.772395422713636,,,,logistic,62,0.2
-Mortality in Hospital,Nitrofurantoin,-1.993936852731788,,,,logistic,62,0.2
+Mortality in Hospital,Empirically given CAAZ only,386.3134493457701,,,,logistic,62,0.2
+Mortality in Hospital,Chloramphenicol Resistance,-36.936391040814385,,,,logistic,62,0.2
+Mortality in Hospital,Colistin Resistance,20.772395422713636,,,,logistic,62,0.2
+Mortality in Hospital,Nitrofurantoin Resistance,-1.993936852731788,,,,logistic,62,0.2
 Mortality in Hospital,Polymyxin/Colistin Inclusion.T,-209.43483943303272,,,,logistic,62,0.2
 Mortality in Hospital,Clinical Improvement,-356.64156122896185,,,,logistic,62,0.2
 Mortality post 28 Day Discharge,const,-23.82030473321825,,,,logistic,61,0.2
@@ -131,69 +131,72 @@ Mortality post 28 Day Discharge,Any Fungal Infection,106.2287240309765,,,,logist
 Mortality post 28 Day Discharge,APACHEII,-1.3766727881911331,,,,logistic,61,0.2
 Mortality post 28 Day Discharge,SGPT,10.325268915052085,,,,logistic,61,0.2
 Mortality post 28 Day Discharge,Urea,-67.75135950404558,,,,logistic,61,0.2
-Mortality post 28 Day Discharge,Neither Abx.E,2.3002050643584453,,,,logistic,61,0.2
-Mortality post 28 Day Discharge,Neither Abx.T,95.00012019458359,,,,logistic,61,0.2
-Mortality post 28 Day Discharge,Minocycline,49.87073995629255,,,,logistic,61,0.2
-Mortality post 28 Day Discharge,Ceftazidime,-70.27258877800963,,,,logistic,61,0.2
-Mortality post 28 Day Discharge,Ceftazidime Avibactam,-27.656895409224624,,,,logistic,61,0.2
-Mortality post 28 Day Discharge,Ceftazidime-Avibactam/Aztreonam.T,4.890761327305587,,,,logistic,61,0.2
+Mortality post 28 Day Discharge,Empirically given other Abx,2.3002050643584453,,,,logistic,61,0.2
+Mortality post 28 Day Discharge,Targettedly Given Other Abx,95.00012019458359,,,,logistic,61,0.2
+Mortality post 28 Day Discharge,Minocycline Resistance,49.87073995629255,,,,logistic,61,0.2
+Mortality post 28 Day Discharge,Ceftazidime Resistance,-70.27258877800963,,,,logistic,61,0.2
+Mortality post 28 Day Discharge,Ceftazidime Avibactam Resistance,-27.656895409224624,,,,logistic,61,0.2
+Mortality post 28 Day Discharge,CAAZ inclusion in Treatment,4.890761327305587,,,,logistic,61,0.2
 Mortality post 28 Day Discharge,Polymyxin/Colistin Inclusion.T,-72.73004119535747,,,,logistic,61,0.2
 Mortality post 28 Day Discharge,Relapse post 28 Day Discharge,-30.070489383112164,,,,logistic,61,0.2
 Mortality post 28 Day Discharge,Other Illness Leading to Hospitalization post 28 Days Discharge,105.93676077316837,,,,logistic,61,0.2
-Overall Mortality,const,-56.87574588377158,,,,logistic,61,0.2
-Overall Mortality,NDM,-37.93105723898803,,,,logistic,61,0.2
-Overall Mortality,P/C in vitro,62.72053512379331,,,,logistic,61,0.2
-Overall Mortality,Z-A invitro,129.63095260515544,,,,logistic,61,0.2
-Overall Mortality,HTN,-96.33567927495733,,,,logistic,61,0.2
-Overall Mortality,Surgery in last 3 Months,-135.20002747690378,,,,logistic,61,0.2
-Overall Mortality,Immunosuppressive drugs in 1 week,20.858729830014195,,,,logistic,61,0.2
-Overall Mortality,Ventilation,80.36096122457639,,,,logistic,61,0.2
-Overall Mortality,Overall organ support,22.63941652819257,,,,logistic,61,0.2
-Overall Mortality,Any Viral Infection,62.697415823385086,,,,logistic,61,0.2
-Overall Mortality,Any Fungal Infection,202.34505744116868,,,,logistic,61,0.2
-Overall Mortality,Hemat Malignancy,108.59298072912866,,,,logistic,61,0.2
-Overall Mortality,Solid Organ,-94.92291071350986,,,,logistic,61,0.2
-Overall Mortality,APACHEII,-22.060062215848934,,,,logistic,61,0.2
-Overall Mortality,SOFA,-10.920666318924512,,,,logistic,61,0.2
-Overall Mortality,Total Protein,22.63625313766171,,,,logistic,61,0.2
-Overall Mortality,Creatinine,208.6046151758371,,,,logistic,61,0.2
-Overall Mortality,Sodium,92.79076468299769,,,,logistic,61,0.2
-Overall Mortality,Potassium,-21.332960012614805,,,,logistic,61,0.2
-Overall Mortality,Urea,43.552206295219065,,,,logistic,61,0.2
-Overall Mortality,P/C only.E,-36.30053534463918,,,,logistic,61,0.2
-Overall Mortality,Amikacin,155.86016981805662,,,,logistic,61,0.2
-Overall Mortality,Colistin,-44.36164114635095,,,,logistic,61,0.2
-Overall Mortality,Doxycycline,-32.72520620403413,,,,logistic,61,0.2
-Overall Mortality,Gentamicin,86.33983242881463,,,,logistic,61,0.2
-Overall Mortality,Minocycline,15.303544761201376,,,,logistic,61,0.2
-Overall Mortality,Ceftazidime/Avibactam.T,81.25183203373143,,,,logistic,61,0.2
-Overall Mortality,Ceftazidime-Avibactam/Aztreonam.T,80.07203128112798,,,,logistic,61,0.2
-Overall Mortality,Polymyxin/Colistin Inclusion.T,-189.0476420045112,,,,logistic,61,0.2
-Overall Mortality,Clinical Improvement,-261.6764499965727,,,,logistic,61,0.2
-Overall Mortality,GW Stay in 28 Days,-19.025373629109936,,,,logistic,61,0.2
-Overall Mortality,Total Hospital Stay in 28 Days,-8.733081412587428,,,,logistic,61,0.2
-Relapse post 28 Day Discharge,const,6.188389005920588,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Hypothyroidism,36.028956374530246,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Other.CRO,46.187845564763386,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Surgery in last 3 Months,1.9382878525551448,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,APACHEII,-3.865539717050282,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,SGOT,16.81017441281132,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Neither Abx.E,28.657412650327686,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Neither Abx.T,28.041879013836926,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Ceftazidime,-9.330573510942864,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Ceftazidime Avibactam,-0.48197944290928046,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Ceftazidime-Avibactam/Aztreonam.T,-36.246758978724216,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,ICU Stay in 28 Days,9.803101018100609,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Total Hospital Stay in 28 Days,-5.7367700399624075,,,,logistic,62,0.2
-Relapse post 28 Day Discharge,Mortality post 28 Day Discharge,37.35919948845744,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,const,-85.01849970265013,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Other.CRO,188.13378923491334,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Inotropes,-70.10774654648792,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,APACHEII,-22.389162886483938,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Neither Abx.E,51.649286313224906,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Neither Abx.T,-83.65852591938597,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Ceftazidime,10.479059627153202,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Ceftazidime Avibactam,-143.80899817305857,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Ceftazidime-Avibactam/Aztreonam.T,-123.07723975500318,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,ICU Stay in 28 Days,29.12932259719272,,,,logistic,62,0.2
-Other Illness Leading to Hospitalization post 28 Days Discharge,Mortality post 28 Day Discharge,431.6457157092668,,,,logistic,62,0.2
+Overall Mortality,const,-57.96724482525035,,,,logistic,61,0.2
+Overall Mortality,NDM,-40.04694541719193,,,,logistic,61,0.2
+Overall Mortality,P/C in vitro,62.340778636963435,,,,logistic,61,0.2
+Overall Mortality,CAAZ invitro,114.89449232531055,,,,logistic,61,0.2
+Overall Mortality,HTN,-93.78930024642867,,,,logistic,61,0.2
+Overall Mortality,Surgery in last 3 Months,-128.7476406386054,,,,logistic,61,0.2
+Overall Mortality,Immunosuppressive drugs in 1 week,10.028354848142753,,,,logistic,61,0.2
+Overall Mortality,Ventilation,66.06326259863032,,,,logistic,61,0.2
+Overall Mortality,Overall organ support,2.43843938152545,,,,logistic,61,0.2
+Overall Mortality,Any Viral Infection,69.20672115728378,,,,logistic,61,0.2
+Overall Mortality,Any Fungal Infection,200.7638423966288,,,,logistic,61,0.2
+Overall Mortality,Hemat Malignancy,103.46525803207903,,,,logistic,61,0.2
+Overall Mortality,Solid Organ,-99.98537910230696,,,,logistic,61,0.2
+Overall Mortality,APACHEII,-21.290059288504416,,,,logistic,61,0.2
+Overall Mortality,SOFA,-8.64702023212544,,,,logistic,61,0.2
+Overall Mortality,Absolute Lymphocyte Count,56.46425864359762,,,,logistic,61,0.2
+Overall Mortality,Total Protein,1.9017352260425713,,,,logistic,61,0.2
+Overall Mortality,Creatinine,182.5599273365457,,,,logistic,61,0.2
+Overall Mortality,Sodium,101.75262029557797,,,,logistic,61,0.2
+Overall Mortality,Potassium,-24.345507621240383,,,,logistic,61,0.2
+Overall Mortality,Urea,35.790308979006994,,,,logistic,61,0.2
+Overall Mortality,Empirically given P/C only,-42.269703844070776,,,,logistic,61,0.2
+Overall Mortality,Amikacin Resistance,155.46656061692119,,,,logistic,61,0.2
+Overall Mortality,Colistin Resistance,-45.14062452862068,,,,logistic,61,0.2
+Overall Mortality,Doxycycline Resistance,-26.3323316878045,,,,logistic,61,0.2
+Overall Mortality,Gentamicin Resistance,72.31913798220808,,,,logistic,61,0.2
+Overall Mortality,Minocycline Resistance,16.646831851462192,,,,logistic,61,0.2
+Overall Mortality,CA inclusion in Treatment,91.74735131970921,,,,logistic,61,0.2
+Overall Mortality,CAAZ inclusion in Treatment,85.41564381632745,,,,logistic,61,0.2
+Overall Mortality,Polymyxin/Colistin Inclusion.T,-189.24013682828655,,,,logistic,61,0.2
+Overall Mortality,Clinical Improvement,-252.97969303951092,,,,logistic,61,0.2
+Overall Mortality,GW Stay in 28 Days,-20.629318755302254,,,,logistic,61,0.2
+Overall Mortality,Total Hospital Stay in 28 Days,-7.94356105973728,,,,logistic,61,0.2
+Relapse post 28 Day Discharge,const,2.3876720182583644,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Hypothyroidism,13.873030544791133,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Other CRO Infections,17.627192737288226,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Surgery in last 3 Months,-0.16302935414680048,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,APACHEII,-1.767781795833304,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Absolute Lymphocyte Count,-17.898216012400102,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,SGOT,6.530787457917934,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Empirically given other Abx,12.569036054339076,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Targettedly Given Other Abx,12.320693081032953,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Ceftazidime Resistance,-5.128840130887655,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Ceftazidime Avibactam Resistance,1.0547483205999237,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,CAAZ inclusion in Treatment,-13.588097337306747,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,ICU Stay in 28 Days,3.9015627308504572,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Total Hospital Stay in 28 Days,-1.6266209176615987,,,,logistic,62,0.2
+Relapse post 28 Day Discharge,Mortality post 28 Day Discharge,15.658903565108211,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,const,-14.355220372518259,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Other CRO Infections,34.84711702612266,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Inotropes,-14.058652868980449,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,APACHEII,-3.7481743835080423,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Absolute Lymphocyte Count,-47.51143806548927,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Empirically given other Abx,4.829862164283502,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Targettedly Given Other Abx,-16.08364431081086,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Ceftazidime Resistance,-4.129965790142841,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Ceftazidime Avibactam Resistance,-21.507108408734773,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,CAAZ inclusion in Treatment,-14.278530948775346,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,ICU Stay in 28 Days,6.18075775087558,,,,logistic,62,0.2
+Other Illness Leading to Hospitalization post 28 Days Discharge,Mortality post 28 Day Discharge,120.30536566311173,,,,logistic,62,0.2

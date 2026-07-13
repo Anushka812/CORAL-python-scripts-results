@@ -12,8 +12,8 @@ import sys
 DATA_FOLDER = "complete_data_116"        # folder containing all bacteria CSV files
 SCRIPTS = [
     ("01_correlation.py", "correlation_results"),
-    ("02_univariate_regression.py", "univariate_results"),
-    ("03_multivariate_regression.py", "multivariate_results")
+    #("02_univariate_regression.py", "univariate_results"),
+    #("03_multivariate_regression.py", "multivariate_results")
 ]
 # ===================================
 

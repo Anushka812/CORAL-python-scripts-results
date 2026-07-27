@@ -1,6 +1,6 @@
 # CORAL: Clinical Outcomes Regression and Analytical Learning Pipeline
 
-**CORAL** is a fully automated, modular pipeline for high‑throughput correlation, univariate, and multivariate regression analyses across multiple bacterial species. Designed for clinical and microbiological researchers, it processes a folder of CSV files (one per organism) and outputs structured results with minimal user intervention—no coding experience required, yet fully customizable for advanced users.
+**CORAL** is a fully automated, modular pipeline for high‑throughput correlation, univariate, and multivariate regression analyses across multiple bacterial species. Designed for clinical and microbiological researchers, it processes a folder of CSV files (one per organism) and outputs structured results with minimal user intervention. The pipeline is designed to require minimal interaction from the user. Once the input datasets are prepared, the complete workflow can be executed using a single command upon completed setup.
 
 ---
 
